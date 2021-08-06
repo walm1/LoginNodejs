@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./styles/snoopy.png">
+    <title>Sign In</title>
+    <link rel="stylesheet" href="resources/css/style.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    
+    <div class="form">
+        
+        <form action="/register" id="login" method="POST">
+            <br>
+            <br>
+            <br>
+            <br>
+            
+            <h1 class="reg">Registrate con tu correo</h1>
+
+            <input type="email" autocomplete="off" class="name" placeholder="Usuario" name="email">
+            
+            <input type="password" autocomplete="off" class="pass" name="password" placeholder="Contraseña" minlength="8">
+
+            <input class="btn-send" type="submit" value="Registrarse">
+
+            <a href="login.ejs" class="logearse1">Logeate</a>
+            
+            <h3 class="copy2">&copy; Tabita Store 2021</h3>
+        </form>
+    </div>
+
+    <script src="../JS/index.js"></script>
+</body>
+</html>

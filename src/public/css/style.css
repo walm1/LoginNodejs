@@ -1,0 +1,126 @@
+body {
+  background: #e0e5ee linear-gradient(315deg, #d8dee7 0%, #d9dfe6 74%);
+  font-family: "PT Sans", sans-serif;
+}
+
+.form {
+  margin-left: 270px;
+  margin-top: 30px;
+  height: 600px;
+  width: 75%;
+  border-radius: 30px;
+  background-color: #26f069;
+  background-image: linear-gradient(319deg, #6eec48 0%, #61fa74 37%, #1cfdd6 100%);
+}
+
+.form #login {
+  height: 600px;
+  text-align: center;
+  font-size: 14px;
+  border-radius: 9px 30px 30px 0px;
+  width: 80%;
+  float: right;
+  background: white;
+}
+
+.form #login .ingresa {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  line-height: 38px;
+  margin-top: 43px;
+}
+
+.form #login .reg {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 30px;
+}
+
+.form .pass .name::-webkit-input-placeholder {
+  font-size: 15px;
+}
+
+.form .pass .name:-ms-input-placeholder {
+  font-size: 15px;
+}
+
+.form .pass .name::-ms-input-placeholder {
+  font-size: 15px;
+}
+
+.form .pass .name::placeholder {
+  font-size: 15px;
+}
+
+.form .name {
+  width: 350px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 80px;
+  padding: 12px;
+  border: none;
+  border-radius: 15px;
+  border: 0.1px #dbdbdb solid;
+}
+
+.form .pass {
+  width: 350px;
+  margin: 0 auto;
+  margin-top: 20px;
+  display: block;
+  padding: 12px;
+  border: none;
+  border-radius: 15px;
+  border: 0.1px #dbdbdb solid;
+}
+
+.form .btn-send {
+  font-size: 15px;
+  font-weight: 500;
+  width: 373px;
+  margin: 0 auto;
+  margin-top: 20px;
+  display: block;
+  border: none;
+  background-color: #00ff95;
+  padding: 12px;
+  border-radius: 15px;
+  -webkit-transition: 100ms;
+  transition: 100ms;
+}
+
+.form .btn-send:hover {
+  cursor: pointer;
+  background-color: #06f893;
+}
+
+.form .registrarse1 {
+  line-height: 5px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 135px;
+}
+
+.form .logearse1 {
+  line-height: 1px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 137px;
+  font-size: 15px;
+}
+
+.form .copy, .form h3 {
+  margin-top: 51px;
+  vertical-align: center;
+}
+
+.form .copy2 {
+  margin-top: 55px;
+}
+
+.form h3 {
+  background: #eee;
+  opacity: 0.4;
+  height: 32px;
+  line-height: 32px;
+  border-radius: 0px 0px 9px 0px;
+}
+/*# sourceMappingURL=style.css.map */

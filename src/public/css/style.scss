@@ -1,0 +1,117 @@
+$main-font: 'PT Sans', sans-serif;
+$main-color: #e0e5ee linear-gradient(315deg, #d8dee7 0%, #d9dfe6 74%);
+$secondary-color: 'white';
+$font-size1: 15px;
+
+body{
+    background: $main-color ; 
+    font-family: $main-font;
+}
+
+.form{
+    margin-left: 270px;
+    margin-top: 30px;
+    height: 600px;
+    width: 75%;
+    border-radius: 30px;
+    background-color: #26f069;
+    background-image: linear-gradient(319deg, #6eec48 0%, #61fa74 37%, #1cfdd6 100%);
+
+    
+
+    #login{
+        height: 600px;
+        text-align: center;
+        font-size: 14px;
+        border-radius: 9px 30px 30px 0px;
+        width: 80%;
+        float: right;
+        background: white;
+
+        .ingresa{
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            line-height: 38px;
+            margin-top: 43px;
+        }
+        
+        .reg{
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-size: 30px;
+        }
+    }
+
+    .pass .name::placeholder{
+        font-size: $font-size1;
+    }
+
+    
+    .name{
+        width: 350px;
+        display: block;
+        margin: 0 auto;
+        margin-top: 80px;
+        padding: 12px;
+        border: none;
+        border-radius: 15px;
+        border: .1px rgb(219, 219, 219) solid;
+    }
+    .pass{
+        width: 350px;
+        margin: 0 auto;
+        margin-top: 20px;
+        display: block;
+        padding: 12px;
+        border: none;
+        border-radius: 15px;
+        border: .1px rgb(219, 219, 219) solid;
+    }
+
+    .btn-send{
+        font-size: $font-size1;
+        font-weight: 500;
+        width: 373px;
+        margin: 0 auto; 
+        margin-top: 20px;
+        display: block;
+        border: none;
+        background-color: rgb(0, 255, 149);
+        padding: 12px;
+        border-radius: 15px;
+        transition: 100ms;
+    }
+    .btn-send:hover{
+        cursor: pointer;
+        background-color: rgb(6, 248, 147);
+    }
+
+    .registrarse1{
+        line-height: 5px;
+        display: block;
+        margin: 0 auto;
+        margin-top: 135px;
+    } 
+    .logearse1{
+        line-height: 1px;
+        display: block;
+        margin: 0 auto;
+        margin-top: 137px;
+        font-size: 15px;
+    }
+
+    .copy{
+        margin-top: 51px;
+        vertical-align: center;
+    }
+    .copy2{
+        margin-top: 55px;
+    }
+ 
+    h3{
+        @extend .copy;
+        background: #eee;
+        opacity: 0.4;
+        height: 32px;
+        line-height: 32px;
+        border-radius: 0px 0px 9px 0px;
+    }
+}
